@@ -1,3 +1,10 @@
+# Generador Seguro de Contraseñas
+
+Este es un proyecto académico de la materia de programación. El sistema genera contraseñas seguras validando la longitud y permitiendo al usuario elegir filtros de seguridad.
+
+## Diagrama de Flujo
+
+```mermaid
 graph TD
     A([Inicio]) --> B[/Ingresar longitud de contraseña/]
     B --> C{¿Longitud < 8?}
